@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../stylesheets/reset.css">
+
+    <title>
+        13.2 Aufgabe: Eingabe und Ergebnisbehandlung
+    </title>
+
+    <style>
+        input {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        Geben Sie die folgenden Daten Ihres Unternehmens ein:
+    </h1>
+
+    <label for="ekap_quote">Eigenkapitalquote (in %)</label>
+    <input id="ekap_quote" type="number" onkeyup="berechneEkap();">
+    <label for="fkap_quote">Fremdkapitalquote (in %)</label>
+    <input id="fkap_quote" type="number" onkeyup="berechneFkap();">
+
+    <script>
+        var berechneEkap = function () {
+            var ekap = document.getElementById("ekap_quote").value;
+            var fkap = document.getElementById("fkap_quote").value;
+
+            if (ekap < 101) {
+                document.getElementById("fkap_quote").value = 100 - ekap;
+            } else {
+                document.getElementById("ekap_quote").value = 100;
+                document.getElementById("fkap_quote").value = 0;
+            }
+        }
+
+        var berechneFkap = function () {
+            var ekap = document.getElementById("ekap_quote").value;
+            var fkap = document.getElementById("fkap_quote").value;
+
+            if (fkap < 101) {
+                document.getElementById("ekap_quote").value = 100 - fkap;
+            } else {
+                document.getElementById("fkap_quote").value = 100;
+                document.getElementById("ekap_quote").value = 0;
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

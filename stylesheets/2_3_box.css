@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/**
+    --------------------------------------------
+    2.3 Aufgabe: Formatierung einzelner Elemente
+    --------------------------------------------
+*/
+
+.container {
+    background-color: #dddddd;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 20px;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/**
+    -----------------------------------
+    2.7 Aufgabe: Steckbrief als Tabelle
+    -----------------------------------
+*/
+
+table,
+th,
+td {
+    border: 1px solid grey;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+th,
+td {
+    vertical-align: top;
+}
+
+img {
+    height: 244px;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/**
+    -------------------
+    2.5 Aufgabe: Syntax
+    -------------------
+*/
+
+body {
+    color: yellow;
+}
+#test_id {
+    color: green;
+}
+p {
+    color: red;
+}
+.test_class {
+    color: blue;
+}
