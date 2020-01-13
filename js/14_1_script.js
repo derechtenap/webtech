@@ -18,6 +18,8 @@ function sternHinzu() {
 }
 
 function sternEntfernen() {
-  var stern = document.getElementById("sterne");
-  stern.removeChild(stern.childNodes[0]);
+    var stern = document.getElementById("sterne");
+    if (stern.hasChildNodes()) {
+        stern.removeChild(stern.childNodes[0]);
+    }
 }
