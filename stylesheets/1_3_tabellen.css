@@ -1,0 +1,29 @@
+/**
+
+    ---------------------------------
+    CSS Fallback - Aufgabe 1.3/2.6
+    ---------------------------------
+    Fallback: Falls Bootstrap nicht installiert wurde!
+
+    CSS Für die Aufgabe 1.3/2.6
+    
+    CSS Style für den W3 Validator (border=1 entfernt)
+
+    Margin und Text-align nur notwendig, damit die Seite mit der 
+    Bildvorgabe übereinstimmt!
+
+**/
+
+table,
+th,
+td {
+    border: 1px solid gray;
+}
+
+table {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
