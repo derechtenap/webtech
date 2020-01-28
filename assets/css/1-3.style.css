@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* 
+    -----------------------------------
+    border-Attribut
+    -----------------------------------
+    Das border-Attribut der Tabellen ist
+    in HTML5 nicht mehr erlaubt und muss
+    mit CSS erzeugt werden.
+*/
+
+table, td, th {
+    border: 1px solid #808080;
+}
+
+th[colspan] {
+    text-align: center;
+}

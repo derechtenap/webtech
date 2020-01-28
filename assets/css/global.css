@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* 
+    -----------------------------------
+    global.css
+    -----------------------------------
+    Diese Datei enthält Styles, welche
+    auf allen Seiten benutzt werden.
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+html {
+    direction: ltr;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0.9rem;
+}
+
+hr {
+    margin: 1rem 0 1rem 0;
+}
+
+td, th {
+    padding: .3rem;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:visited, a:hover, a:link, a:active {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 1);
+}
+
+.aufgabe {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.loesung, .aufgabe {
+    padding: 1rem;
+}
+
+.notiz {
+    border: 2px solid rgba(255, 165, 0, 1);
+    background-color: rgba(255, 165, 0, .8);
+    padding: 2rem;
+    border-radius: 10px;
+}
