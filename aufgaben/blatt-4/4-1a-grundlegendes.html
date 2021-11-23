@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aufgabe 4.1a: Grundlegendes</title>
+    <link rel="stylesheet" href="/css/4-1-grundlegendes.css">
+</head>
+
+<body>
+    <section class="formular">
+        <h1>Formular</h1>
+
+        <form action="http://haegar.fh-swf.de/spiegel.php" method="GET" target="_blank">
+
+            <section class="adresse">
+                <input type="text" name="name" aria-label="Name" placeholder="Name">
+                <input type="text" name="strasse" aria-label="Straße" placeholder="Straße">
+                <input type="text" name="ort" aria-label="Ort" placeholder="Ort">
+            </section>
+
+            <section class="alter">
+                <p>Alter:</p>
+                <input type="radio" name="alter" id="a-k10" aria-label="Jünger als 10 Jahre alt" value="k10">
+                <label for="a-k10">&lt;10</label>
+                <input type="radio" name="alter" id="a-10-19" aria-label="Zwischen 10 und 19 Jahre alt" value="10-19">
+                <label for="a-10-19">10-19</label>
+                <input type="radio" name="alter" id="a-20-29" aria-label="Zwischen 20 und 29 Jahre alt" value="20-29">
+                <label for="a-20-29">20-29</label>
+                <input type="radio" name="alter" id="a-30-49" aria-label="Zwischen 30 und 49 Jahre alt" value="30-49">
+                <label for="a-30-49">30-49</label>
+                <input type="radio" name="alter" id="a-50-65" aria-label="Zwischen 50 und 65 Jahre alt" value="50-65">
+                <label for="a-50-65">50-65</label>
+                <input type="radio" name="alter" id="a-g65" aria-label="Älter als 65 Jahre alt" value="g65">
+                <label for="a-g65">>65</label>
+            </section>
+
+            <section class="hobbies">
+                <p>Hobbies:</p>
+                <input type="checkbox" name="hobbies[]" id="sp" aria-label="Sport" value="sport">
+                <label for="sp">Sport</label>
+                <input type="checkbox" name="hobbies[]" id="le" aria-label="Lesen" value="lesen">
+                <label for="le">Lesen</label>
+                <input type="checkbox" name="hobbies[]" id="mu" aria-label="Musik hören" value="musik_hoeren">
+                <label for="mu">Musik hören</label>
+                <input type="checkbox" name="hobbies[]" id="mus" aria-label="Musizieren" value="musizieren">
+                <label for="mus">Musizieren</label>
+                <input type="checkbox" name="hobbies[]" id="mal" aria-label="Malen" value="malen">
+                <label for="mal">Malen</label>
+            </section>
+
+            <section class="jahreszeit">
+                <p>Jahreszeit:</p>
+
+                <select name="jahreszeit" size="1">
+                    <option value="fruehling">Frühling</option>
+                    <option value="sommer">Sommer</option>
+                    <option value="herbst">Herbst</option>
+                    <option value="winter">Winter</option>
+                </select>
+            </section>
+
+            <section class="text">
+                <textarea name="beitrag" rows="9" cols="45"></textarea>
+                <input type="submit" aria-label="Abschicken" value="Abschicken">
+            </section>
+        </form>
+    </section>
+</body>
+
+</html>
