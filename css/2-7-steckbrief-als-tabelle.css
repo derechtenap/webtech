@@ -17,5 +17,6 @@ td {
 }
 
 img {
+  display: block;
   height: 244px;
 }
