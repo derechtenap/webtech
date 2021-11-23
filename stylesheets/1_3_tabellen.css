@@ -1,18 +1,10 @@
-/**
+/* 
 
-    ---------------------------------
-    CSS Fallback - Aufgabe 1.3/2.6
-    ---------------------------------
-    Fallback: Falls Bootstrap nicht installiert wurde!
+Laut Aufgabenstellung sollte zur Darstellung des Tabellengitters das border-Attribut benutzt 
+werden (border=1). Dieses Attribut wird ab HTML5 nicht mehr unterstützt (Siehe 
+https://www.w3schools.com/tags/ref_attributes.asp). Deswegen wurde dies mit CSS umgesetzt.
 
-    CSS Für die Aufgabe 1.3/2.6
-    
-    CSS Style für den W3 Validator (border=1 entfernt)
-
-    Margin und Text-align nur notwendig, damit die Seite mit der 
-    Bildvorgabe übereinstimmt!
-
-**/
+*/
 
 table,
 th,
