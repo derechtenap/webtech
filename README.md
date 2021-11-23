@@ -1,9 +1,9 @@
-# webtech
-FH SWF Webtechnologie
+# FH SWF Webtechnologie
+
 ## Übersicht
-In diesem Repo befinden sich die meisten Aufgaben des Moduls "Webtechnologie" der Fachhochschule Südwestfalen Hagen.
+In diesem Repository befinden sich die meisten Aufgaben des Moduls "Webtechnologie" der Fachhochschule Südwestfalen Hagen.
 Einige Aufgaben sind allerdings noch nicht vollständig bearbeitet.
 
-### Bootstrap
-**Einige Aufgaben benutzen das Bootstrap Framework!**
-Für eine optimale Formatierung sollte Bootstrap dem Projekt hinzugefügt werden. -> (`npm i bootstrap`) 
+## Overview
+*This repository contains a large part of the tasks for the module "Web Technology" of the University of Applied Sciences Südwestfalen Hagen.* 
+*However, some tasks have not yet been fully completed.*
